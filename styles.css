@@ -1,0 +1,36 @@
+html {
+	scroll-behavior: smooth;
+	}
+
+p{
+	text-align: center;
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 55vw;
+	min-width: 300px;
+}
+
+.scroll-to-top {
+    background-image: url('resources/arrow-inverted.png');
+    background-size: contain;
+	background-position: center;
+	background-color: Transparent;
+	background-repeat: no-repeat;
+    width: 8vw;
+	height: 8vw;
+	max-width: 100px;
+	min-width: 20px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	border: 0;
+	outline: none;
+}
+
+.scroll-to-top:hover {
+	background-image: url('resources/arrow.png');
+}
